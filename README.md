@@ -1,2 +1,2 @@
 # icon-generator
- Генератор иконок поможет тебе создать свои собственные иконки различных размеров и стилей.
+The icon generator will help you create your own icons of various sizes and styles.
