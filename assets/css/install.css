@@ -1,0 +1,112 @@
+#main > div > div {
+   left: -1%;
+   right: -1%;
+}
+
+#main > div > div > div {
+   padding: 1%;
+}
+
+#main > div > div > div:nth-of-type(1) {
+   padding-bottom: 2%;
+}
+
+#main > div > div:last-of-type > div:nth-of-type(1) {
+   padding-bottom: 1%;
+}
+
+#main > div > div > div:nth-of-type(1) > p {
+   padding: 1% 0 0 0;
+}
+
+#main > div > div > div > label {
+   font-weight: bold;
+}
+
+#main > div > div > div > div > label {
+   font-weight: bold;
+}
+
+#main > div > div > div > input,
+#main > div > div > div > select {
+   padding: 20px;
+}
+
+#main > div:last-of-type > div > div > button {
+   padding: 20px 0;
+   background: #2E8ECE;
+   color: #FFFFFF;
+   text-transform: uppercase;
+}
+
+#main > div:last-of-type > div > div > button[disabled] {
+   pointer-events: none;
+   opacity: 0.4;
+}
+
+#main > div:last-of-type > div > div:nth-of-type(1) > button,
+#main > div:last-of-type > div > div:nth-of-type(2) > button {
+   background: #2E8ECE;
+}
+
+#main > div:last-of-type > div > div:nth-of-type(1) > button:hover,
+#main > div:last-of-type > div > div:nth-of-type(2) > button:hover {
+   background: #2e42ce;
+}
+
+#main > div:last-of-type > div > div:nth-of-type(3) > button {
+   background: #2e42ce;
+}
+
+#main > div:last-of-type > div > div:nth-of-type(3) > button:hover {
+   background: #4098d4;
+}
+
+#main > div:last-of-type > div > div#install-messages {
+   display: none;
+}
+
+#main > div:last-of-type > div > div#install-messages > p {
+   padding: 14px;
+   margin: 10px 0;
+   text-align: center;
+   color: #FFFFFF;
+   background: #CE2E2E;
+   border-radius: 4px;
+   -webkit-border-radius: 4px;
+   -moz-border-radius: 4px;
+}
+
+#main > div:last-of-type > div > div#install-messages > p.error {
+   background: #CE2E2E;
+}
+
+#main > div:last-of-type > div > div#install-messages > p.success {
+   background: #43A047;
+}
+
+#main > div:last-of-type > div > div#install-messages > p:first-of-type {
+   margin-top: 0;
+}
+
+#main > div:last-of-type > div > div#install-messages > p:last-of-type {
+   margin-bottom: 0;
+}
+
+textarea {
+    background: rgba(0, 0, 0, 0.075);
+    border: 1px solid #DDDDDD;
+	display: inline-block;
+	width: 100%;
+    padding: 14px 20px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+}
+
+@media only screen and (max-width: 420px) {
+	.col6{
+		width: 100%!important;
+	}
+}
+
